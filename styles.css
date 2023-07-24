@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+.container{
+	display:grid;
+	grid-template-rows:repeat(40,30px);
+	grid-template-columns:repeat(20,30px);
+	background-color:grey;
+	border:1px solid black;
+}
+.square:hover{
+	background-color:blue;
+}
+.square2:hover{
+	background-color:yellow;
+}
+.square{
+	background-color:transparent;
+	border:1px solid black;
+}
+.square2{
+	background-color:transparent;
+	border:1px solid black;
+}
